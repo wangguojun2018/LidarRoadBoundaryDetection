@@ -12,10 +12,10 @@ and right feature points on structured curved roads, and the proposed iterative 
 
 
 ## Demo
-[![Demo](https://github.com/wangguojun2018/LidarRoadBoundaryDetection/data/successful_case.png)](https://www.bilibili.com/video/BV12p4y197ms/)
+[![Demo](https://github.com/wangguojun2018/LidarRoadBoundaryDetection/blob/master/data/successful_case.png)](https://www.bilibili.com/video/BV12p4y197ms/)
 
 # Introduction
-![model](https://github.com/wangguojun2018/LidarRoadBoundaryDetection/data/pipeline.png)  
+![model](https://github.com/wangguojun2018/LidarRoadBoundaryDetection/blob/master/data/pipeline.png)  
 The proposed method consists of four main steps: **Ground Points Segmentation**,**Feature Points Extraction**,**Feature Points Classification** and **Feature Points Filtering**. It takes a frame of raw point cloud as input and outputs road boundary points.
 
 
