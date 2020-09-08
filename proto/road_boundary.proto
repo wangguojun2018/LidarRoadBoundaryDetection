@@ -1,0 +1,58 @@
+syntax="proto3";
+
+package RoadBoundary;
+
+message RoadBoundaryMsg {
+    CloudMapperMsg cloudMapperMsg=1;
+    BinReaderMsg binReaderMsg=2;
+    GroundSegmentationMsg groundSegmentationMsg=3;
+    FeaturePointsMsg featurePointsMsg=4;
+    BoundaryPointsMsg boundaryPointsMsg=5;
+}
+
+
+message CloudMapperMsg {
+    float lowerBound=1;
+    float upperBound=2;
+    int32 nScanRings=3;
+}
+
+message BinReaderMsg {
+    
+    string binDir=1;
+    int32 frameNum=2;
+}
+
+message GroundSegmentationMsg {
+    float segThres=1;
+}
+
+
+message FeaturePointsMsg {
+
+    float heightMaxThres=1;
+    float heightMinThres=2;
+    int32 heightRegion=3;
+    float heightSigmaThre=4;
+
+    int32 curvatureRegion=5;
+    float curvatureThres=6;
+
+    float distanceHorizonThres=7;
+    float distanceVerticalThres=8;
+
+    float angularRes=9;
+
+    bool useVerticle=10;
+    bool useHorizon=11;
+
+}
+
+message BoundaryPointsMsg {
+    float varThres=1;
+    float meanThres=2;
+    int32 gridNum=3;
+    float gridRes=4;
+    float curveFitThres=5;
+    bool useCurveRansac=6;
+}
