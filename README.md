@@ -44,7 +44,7 @@ Then please check [official documentation](http://www.resibots.eu/limbo/tutorial
     mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release && make -j8
 ```
 ## 6. Run Video Demo
-(Please modify ``binDir`` to your own bin file directory in [boundary_detection.config](https://github.com/wangguojun2018/LidarRoadBoundaryDetection/config/boundary_detection.config))
+(Please modify ``binDir`` to your own bin file directory in [boundary_detection.config](https://github.com/wangguojun2018/LidarRoadBoundaryDetection/blob/master/config/boundary_detection.config))
 
 ```bash
     ./demo_video ../config/boundary_detection.config
