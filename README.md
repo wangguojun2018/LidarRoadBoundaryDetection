@@ -1,4 +1,4 @@
-## Speed and Accuracy Tradeoffs for LiDAR Based Road Boundary Detection (IEEE/CAA 2020) [\[paper\]](http://www.ieee-jas.org/article/id/47aa185b-001a-46b9-bff4-ef7e430ab39a?pageType=en)
+## Speed and Accuracy Tradeoffs for LiDAR Based Road Boundary Detection (IEEE/CAA 2020) [\[paper\]](https://ieeexplore.ieee.org/document/9205694)
 An speed and accuracy tradeoff method for LiDAR-based road boundary detection in structured environments is proposed. 
 The proposed method consists of three main stages: 
 1) a multi-feature based method is applied to extract feature points; 
@@ -61,6 +61,15 @@ Then please check [official documentation](http://www.resibots.eu/limbo/tutorial
 If you find this work useful in your research, please consider cite:
 
 ```bash
-Guojun Wang, Jian Wu, Rui He and Bin Tian, "Speed and Accuracy Tradeoff for LiDAR Data Based Road Boundary Detection," IEEE/CAA J. Autom. Sinica,. 
+@article{wang2020speed,
+  title={Speed and Accuracy Tradeoff for LiDAR Data Based Road Boundary Detection},
+  author={Wang, Guojun and Wu, Jian and He, Rui and Tian, Bin},
+  journal={IEEE/CAA Journal of Automatica Sinica},
+  volume={8},
+  number={6},
+  pages={1210--1220},
+  year={2020},
+  publisher={IEEE}
+}
 ```
 
