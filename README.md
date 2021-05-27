@@ -61,15 +61,11 @@ Then please check [official documentation](http://www.resibots.eu/limbo/tutorial
 If you find this work useful in your research, please consider cite:
 
 ```bash
-@article{wang2020speed,
-  title={Speed and Accuracy Tradeoff for LiDAR Data Based Road Boundary Detection},
-  author={Wang, Guojun and Wu, Jian and He, Rui and Tian, Bin},
-  journal={IEEE/CAA Journal of Automatica Sinica},
-  volume={8},
-  number={6},
-  pages={1210--1220},
-  year={2020},
-  publisher={IEEE}
+@article{wang2020multi,
+  title={Multi-View Adaptive Fusion Network for 3D Object Detection},
+  author={Wang, Guojun and Tian, Bin and Zhang, Yachen and Chen, Long and Cao, Dongpu and Wu, Jian},
+  journal={arXiv preprint arXiv:2011.00652},
+  year={2020}
 }
 ```
 
